@@ -1,1 +1,2 @@
 tweepy==4.12.1
+psycopg2==2.9.5
