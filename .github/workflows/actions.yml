@@ -28,6 +28,11 @@ jobs:
           ACCESS_SECRET: ${{ secrets.ACCESS_SECRET }}
           CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
           CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
+          HOST_NAME: ${{ secrets.HOST_NAME }}
+          DATABASE: ${{ secrets.DATABASE }}
+          USER: ${{ secrets.USER }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          
         run: python main.py
         
       - name: push changes
