@@ -2,7 +2,7 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '* * * * *' # Runs every 20th minute
+    - cron: '50 0-12 * * *' # Runs every 20th minute
 
 jobs:
   build:
@@ -34,8 +34,3 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
         run: python main.py
         
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.HUBGIT_TOKEN }}
-          branch: main 
