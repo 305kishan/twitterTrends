@@ -1,3 +1,6 @@
+
+print("Hi From Workflow 1")
+
 # import the module
 import os
 import tweepy
@@ -14,3 +17,5 @@ print(ACCESS_KEY)
 print(ACCESS_SECRET)
 print(CONSUMER_KEY)
 print(CONSUMER_SECRET)
+
+print("Hi From Workflow 2")
