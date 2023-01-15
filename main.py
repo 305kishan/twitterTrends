@@ -29,4 +29,5 @@ with open("twitter_trends.csv", "w", newline="") as file:
     writer.writerow(["Charlie", 35, "Chicago"])
 
 
+
 print("Hi From Workflow 2")
