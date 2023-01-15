@@ -1,8 +1,8 @@
 # import the module
 import os
 import tweepy
-#import psycopg2
-#from pytz import timezone
+import psycopg2
+from pytz import timezone
 from datetime import datetime
 
 ACCESS_KEY = os.environ["ACCESS_KEY"]
