@@ -32,7 +32,6 @@ jobs:
           DATABASE: ${{ secrets.DATABASE }}
           USER: ${{ secrets.USER }}
           PASSWORD: ${{ secrets.PASSWORD }}
-          
         run: python main.py
         
       - name: push changes
