@@ -37,5 +37,9 @@ python3 main.py
 ```
 The script will extract the trending topics and insert them into the specified ElephantSQL database.
 
+## Acknowledgments
+- Tweepy for providing a convenient way to access the Twitter API.
+- ElephantSQL for providing a convenient way to manage PostgreSQL databases.
+
 ## Contributing
 If you want to contribute to this repository, please submit a pull request with your suggested changes.
